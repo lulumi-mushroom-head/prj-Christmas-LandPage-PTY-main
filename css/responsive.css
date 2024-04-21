@@ -1,0 +1,179 @@
+/*============== section : s1 :: after ==============*/
+@media (min-width: 812px) and (max-width: 1211px) {
+  section.s1::after {
+    bottom: 3rem !important;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 811px) {
+  section.s1::after {
+    bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 541px) {
+  section.s1::after {
+    background: none !important;
+  }
+}
+
+/*============== s1FluidBg ==============*/
+@media (min-width: 1021px) and (max-width: 1293px) {
+  .container-fluid.s1FluidBg .container {
+    width: 80%;
+  }
+  section blockquote {
+    padding: 1rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1020px) {
+  .container-fluid.s1FluidBg .container {
+    width: 98% !important;
+  }
+  section blockquote {
+    padding: 0.3rem !important;
+  }
+  section blockquote small {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  section.s1 .s1FluidBg {
+    background: url(../img/img-s1FluidBg-bg.png) no-repeat -30px 55%, radial-gradient(#fff, #fffafa, #f9d8c3) !important;
+    background-attachment: fixed !important;
+  }
+  section.s1 .s1FluidBg blockquote {
+    padding: 0.3rem 0.3rem 3.4rem 0.3rem !important;
+  }
+  section.s1 .s1FluidBg blockquote p {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    margin-top: 0rem;
+  }
+}
+
+/*============== section s3 ==============*/
+@media screen and (min-width: 1536px) {
+  section.s3 .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1535px) {
+  section.s3 .container {
+    width: 70%;
+  }
+}
+
+/*============== header ==============*/
+@media screen and (max-width: 769px) {
+  header {
+    height: 100vh !important;
+  }
+  header .banner-leader008 {
+    height: inherit !important;
+  }
+  header::after {
+    top: 76vh !important;
+    background: none !important;
+  }
+  section.s2 > .container {
+    width: 97%;
+  }
+  section.s2 > .container img {
+    width: 100% !important;
+  }
+  section.s3 blockquote {
+    padding: 0.03rem;
+  }
+  section.s3 blockquote table {
+    width: 100%;
+  }
+  span.thisIsLink {
+    padding: 3.2rem 0 3.2rem 0 !important;
+  }
+  span.thisIsLink a[type="button"] {
+    width: 90%;
+  }
+}
+
+/*============== slogan ==============*/
+@media screen and (max-width: 1400px) {
+  .banner-leader008 .slogan {
+    padding-left: 0% !important;
+  }
+  .banner-leader008 .slogan img {
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner-leader008 .slogan {
+    padding-left: 0% !important;
+  }
+  .banner-leader008 .redEnvelop {
+    padding-right: 0% !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .banner-leader008 .slogan {
+    padding-left: 0% !important;
+  }
+  .banner-leader008 .redEnvelop {
+    padding-right: 3% !important;
+  }
+  .banner-leader008 .redEnvelop blockquote {
+    margin: -6.5rem 0 0rem;
+  }
+  .banner-leader008 .redEnvelop blockquote blockquote.scd-Slogan p {
+    margin-bottom: 0 !important;
+  }
+  .banner-leader008 .redEnvelop img {
+    margin-top: 0.5rem !important;
+    width: 100%;
+  }
+  footer section.footer-s1 .container {
+    width: 90% !important;
+  }
+  section.s3 .container {
+    width: 90% !important;
+  }
+}
+
+/*============== header service ==============*/
+@media (max-width: 520px) {
+  ul.phone {
+    display: -ms-grid !important;
+    display: grid !important;
+  }
+  ul.phone li {
+    width: 100%;
+    text-align: right;
+    margin-right: 0px !important;
+  }
+  ul.phone li:first-child {
+    margin-bottom: 10px;
+  }
+  .s1FluidBg .w_70 {
+    width: 100% !important;
+  }
+  .s1FluidBg p {
+    font-size: 18px !important;
+  }
+}
+
+/*============== banner ---- width ==============*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-leader008 .container {
+    max-width: 97% !important;
+  }
+  .banner-leader008 .slogan img,
+  .banner-leader008 .redEnvelop img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
